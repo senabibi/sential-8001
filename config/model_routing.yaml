@@ -1,0 +1,21 @@
+# SENTINEL-8004 Model Routing
+# All LLM calls go through Groq (OpenAI-compatible API).
+# API key: GROQ_API_KEY (fallback: OPENAI_API_KEY or ANTHROPIC_API_KEY)
+
+provider: groq
+base_url: "https://api.groq.com/openai/v1"
+
+strategy_agent:
+  model: "llama-3.3-70b-versatile"
+  max_tokens: 512
+  temperature: 0.2
+
+auditor_agent:
+  model: "llama-3.3-70b-versatile"
+  max_tokens: 512
+  temperature: 0.3
+
+embedder:
+  provider: "local"
+  model: "all-MiniLM-L6-v2"   # sentence-transformers, runs locally, no API key
+  dimensions: 384

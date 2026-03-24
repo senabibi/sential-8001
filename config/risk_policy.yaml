@@ -1,0 +1,43 @@
+version: 1.0.0
+last_updated: '2026-03-23T00:00:00Z'
+last_updated_by: init
+max_position_size_pct: 5.0
+min_position_size_pct: 0.5
+stop_loss_pct: 1.5
+take_profit_pct: 4.0
+max_daily_loss_pct: 5.0
+max_drawdown_pct: 15.0
+balance_floor_usd: 500.0
+max_leverage: 1.0
+min_trade_interval_seconds: 60
+max_trades_per_day: 20
+min_signal_confidence: 0.65
+min_rag_relevance_score: 0.5
+allowed_pairs:
+- BTC/USD
+- ETH/USD
+- ETH/USDC
+- BTC/USDC
+- WETH/USDC
+- WBTC/USDC
+surge_position_cap_usd: 10000.0
+surge_daily_loss_cap_usd: 1000.0
+param_bounds:
+  stop_loss_pct:
+  - 0.5
+  - 10.0
+  take_profit_pct:
+  - 1.0
+  - 20.0
+  max_position_size_pct:
+  - 0.5
+  - 10.0
+  max_daily_loss_pct:
+  - 1.0
+  - 20.0
+  max_leverage:
+  - 1.0
+  - 3.0
+  min_signal_confidence:
+  - 0.5
+  - 0.95

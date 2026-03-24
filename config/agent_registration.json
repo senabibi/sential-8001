@@ -1,0 +1,32 @@
+{
+  "name": "SENTINEL-8004",
+  "version": "1.0.0",
+  "description": "Autonomous self-correcting multi-agent trading system with on-chain trust layer",
+  "capabilities": [
+    "market_analysis",
+    "risk_management",
+    "self_correction",
+    "rag_memory",
+    "cefi_execution",
+    "defi_execution"
+  ],
+  "execution_layers": [
+    "kraken_cli",
+    "aerodrome_base"
+  ],
+  "llm_stack": {
+    "strategy": "claude-sonnet-4-6",
+    "auditing": "gpt-4o"
+  },
+  "agent_wallet": "0x0000000000000000000000000000000000000000",
+  "chain_id": 8453,
+  "endpoints": {
+    "status": "",
+    "logs": ""
+  },
+  "erc8004": {
+    "identity_token_id": null,
+    "reputation_registry": null,
+    "validation_registry": null
+  }
+}

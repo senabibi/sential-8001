@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "sentinel-8004"
+version = "0.1.0"
+description = "Self-Correcting Autonomous Trading Agent"
+authors = ["Nursena Bitirgen"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^1.50.0"           # used for Groq (OpenAI-compatible) + embeddings fallback
+pydantic = "^2.0.0"
+pyyaml = "^6.0.0"
+python-dotenv = "^1.0.0"
+chromadb = "^0.5.0"
+pysqlite3-binary = "*"       # fixes sqlite3 < 3.35.0 on older systems (Python 3.9)
+sentence-transformers = "*"  # local embeddings, no API key needed
+pandas = "^2.0.0"
+numpy = "^1.26.0"
+
+# Onchain layer (teammate) — pre-install so imports don't fail
+web3 = "^6.0.0"
+eth-account = "^0.11.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0.0"
+pytest-asyncio = "^0.23.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
