@@ -1,9 +1,12 @@
 <div align="center">
-  <img src="logos/gitlab-ci.png" height="35"/> &nbsp;
-  <img src="logos/Sony_AI.png" height="35"/> &nbsp;
-  <img src="logos/Antrophic.jpg" height="35"/> &nbsp;
-  <img src="logos/openai.jpg" height="35"/> &nbsp;
-  <img src="logos/flask.webp" height="35"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="30"/>
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" height="30"/>
+  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white" height="30"/>
+  <img src="https://img.shields.io/badge/Meta_Llama_3-0467DF?style=for-the-badge&logo=meta&logoColor=white" height="30"/>
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" height="30"/>
+  <img src="https://img.shields.io/badge/Kraken-5741D9?style=for-the-badge&logo=kraken&logoColor=white" height="30"/>
+  <img src="https://img.shields.io/badge/Base_L2-0052FF?style=for-the-badge&logo=base&logoColor=white" height="30"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" height="30"/>
 </div>
 
 # KARMA
